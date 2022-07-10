@@ -23,9 +23,12 @@ public class TC_03ErrorMessageCheck {
 		a.accept();
 		if(title.equals(bankTitle)) {
 			System.out.println("Test Passed");
+			System.out.println("TEST PASSED");
 		}else {
 			System.out.println("Test Failed"); 
-	}
+			System.out.println("TEST FAILED");
+		
+		}
 		driver.quit();
 }
 }
